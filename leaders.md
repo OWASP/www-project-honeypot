@@ -1,3 +1,3 @@
 ### Leaders
 
-* [Adrian Winckles](mailto://adrian.winckles@owasp.org)
+* [Adrian Winckles](mailto:adrian.winckles@owasp.org)
