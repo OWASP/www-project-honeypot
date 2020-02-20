@@ -2,21 +2,36 @@
 
 layout: col-sidebar
 title: OWASP Honeypot
-tags: example-tag
-level: 4
-type: 
+tags: owasp honeypot
+level: 2
+type: documentation
 
 ---
 
-<!-- rebuild 2 -->
-This is an example of a Project or Chapter Page.  Please change these items to indicate the actual information you wish to present.  In addition to this information, the 'front-matter' above this text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+# OWASP Honeypot-Project
 
-layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+The goal of the OWASP Honeypot Project is to identify emerging attacks against web applications and report them to the community, in order to facilitate protection against such targeted attacks.
 
-title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+Based around the earlier OWASP/WASC Distributed Web Honeypots Project (https://github.com/SpiderLabs/owasp-distributed-web-honeypots)
 
-tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+The primary aims of the project are
 
-level: For projects, this is your project level (2 - Incubator, 3 - Lab, 4 - Flagship)
+*    Real-time, detailed Web Application Threat Attack Data
+*    Threat Reports to the community
 
-type: For projects, one of documentation, code, or tool
+## Organization of the repository
+
+This repository is organized into various directories. Below table shows the purpose of each one. 
+
+| Directory | Purpose | 
+| --- | --- | 
+| `honeytraps` | Focuses on building honeytraps and reporting threat intelligence | 
+| `mds_elk` | Shows a PoC for sending the ModSecurity Audit Logs to ELK using Filebeat|
+| `misp-doc` | Assists in setting the MISP Server and creating threat events using PyMISP |
+| `mlogc_elk` | Shows a PoC for sending the ModSecurity Audit Logs to ELK using ModSecurity Audit Log Collector (mlogc) |
+
+Please go to respective directories for complete documentation.
+
+# Project Roadmap
+
+We keep the project roadmap as [issues in the repo](https://github.com/OWASP/Honeypot-Project/issues)
