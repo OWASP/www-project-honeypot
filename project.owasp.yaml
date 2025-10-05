@@ -1,0 +1,27 @@
+audience:
+  - builder
+community:
+  - name: honeypot-project
+    platform: slack
+    url: https://owasp.slack.com/archives/CBBN8EVFF
+    description: Talk about OWASP Honeypot Project
+leaders:
+  - name: Adrian Winckles
+    email: adrian.winckles@owasp.org
+    github: adrianwinckles
+level: 2
+name: OWASP Honeypot
+pitch: Description for OWASP Honeypot
+repositories:
+  - name: www-project-honeypot
+    url: https://github.com/OWASP/www-project-honeypot
+    description: The goal of the OWASP Honeypot Project is to identify emerging attacks against web applications and report them to the community, in order
+      to facilitate protection against such targeted attacks.
+  - name: Honeypot-Project
+    url: https://github.com/OWASP/Honeypot-Project
+tags:
+  - owasp
+  - honeypot
+  - custom-tag-1
+type: documentation
+website: https://owasp.org/www-project-honeypot
