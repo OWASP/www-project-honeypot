@@ -32,6 +32,20 @@ This repository is organized into various directories. Below table shows the pur
 
 Please go to respective directories for complete documentation.
 
+## Architecture Overview
+
+The OWASP Honeypot Project combines honeytraps, ModSecurity, log aggregation, and threat intelligence sharing to identify and analyze web application attacks.
+
+![OWASP Honeypot Architecture](/assets/images/honeypot-architecture.png)
+
+### Workflow
+
+1. Attackers interact with deployed honeytraps.
+2. ModSecurity captures and records attack activity.
+3. Audit logs are forwarded using either Filebeat or mlogc.
+4. Logs are aggregated and analyzed in the ELK Stack.
+5. Relevant indicators and events are shared with MISP.
+6. Threat intelligence can then be distributed to the security community.
 # Project Roadmap
 
 We keep the project roadmap as [issues in the repo](https://github.com/OWASP/Honeypot-Project/issues)
